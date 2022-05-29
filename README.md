@@ -42,6 +42,11 @@ cat ~/.ssh/id_ed25519.pub
 - `Paste the contents under Key Section`, Title can be whatever
 
 🟠 <u> 3. Setting our remote origin in the command line </u>
+- View current origin:
+```console
+git remote -v
+```
+
 - Remove the original origin:
 ```console
 git remote rm origin
