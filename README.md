@@ -6,8 +6,14 @@ Showing how to set up SSH keys on github in addition to using DVC in conjuntion 
 - First Create the config file, in this case no password was set
 ```console
 ssh-keygen -t ed25519 -C username@email.com
+```
+```console
 eval "$(ssh-agent -s)"
+```
+```console
 ~/.ssh/config
+```
+```console
 touch ~/.ssh/config
 ```
 - Secondly, head to the directory of the config file, edit and add the following:
