@@ -3,20 +3,20 @@ Showing how to set up SSH keys on github in addition to using DVC in conjuntion 
 
 ## Set Up SSH Key and Origin for pushes
 1. Generate SSH Key `Git Bash`
-  *First Create the config file, in this case no password was set
+  1.First Create the config file, in this case no password was set
 ```console
 ssh-keygen -t ed25519 -C username@email.com
 eval "$(ssh-agent -s)"
 ~/.ssh/config
 touch ~/.ssh/config
 ```
-  *Secondly, head to the directory of the config file, edit and add the following:
+  2.Secondly, head to the directory of the config file, edit and add the following:
 ```
 Host *
  AddKeysToAgent yes
  IdentityFile ~/.ssh/id_ed25519
 ```
-If you have a password and want it to be stored, type this:
+3. If you have a password and want it to be stored, type this instead:
 ```
 Host *
  AddKeysToAgent yes
