@@ -16,7 +16,7 @@ eval "$(ssh-agent -s)"
 ```console
 touch ~/.ssh/config
 ```
-- Secondly, head to the directory of the config file, edit and add the following:
+- Secondly, `edit the config file`, pasting this inside:
 ```
 Host *
  AddKeysToAgent yes
