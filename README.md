@@ -38,7 +38,7 @@ ssh-add ~/.ssh/id_ed25519
 ```console
 cat ~/.ssh/id_ed25519.pub  
 ```
-- Go to GitHub -> settings -> SSH/GPG Keys -> New SSH Key 
+- ❗Go to GitHub ➡️ settings ➡️ SSH/GPG Keys ➡️ New SSH Key 
 - `Paste the contents under Key Section`, Title can be whatever
 
 3. Setting our remote origin in the command line
