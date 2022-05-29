@@ -2,8 +2,8 @@
 Showing how to set up SSH keys on github in addition to using DVC in conjuntion with AWS S3 for version control of datasets
 
 ## Set Up SSH Key and Origin for pushes
-1. Generate SSH Key `Git Bash`
-- First Create the config file, in this case no password was set
+1. Generate SSH Key (Git Bash)
+- First `Create the config file`, *in this case no password was set
 ```console
 ssh-keygen -t ed25519 -C username@email.com
 ```
@@ -34,7 +34,7 @@ Host *
 ssh-add ~/.ssh/id_ed25519
 ```
 2. Telling GitHub about the SSH Key
-  *Copy the contents when this command is typed in:
+- `Copy the contents` when this command is typed in:
 ```console
 cat ~/.ssh/id_ed25519.pub  
 ```
