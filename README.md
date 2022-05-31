@@ -1,3 +1,7 @@
+# There are 2 files uploaded
+- The word document contains all the information an steps to using VS `AWS S3 + s3-pit-restore` VS `DVC+ AWS S3 + Git` 
+- The pdf contains specifics as to the usage of DVC only.
+
 # SSH-Key-and-DVC-S3-Setup-
 Showing how to set up SSH keys on github in addition to using DVC in conjuntion with AWS S3 for version control of datasets
 
